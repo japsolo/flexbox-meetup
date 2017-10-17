@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flexbox</title>
+	<style>
+		.container{
+			display: flex;
+			flex-wrap: wrap;
+			width: 800px;
+			height: 500px;
+			background-color: #364D39;
+			padding: 15px;
+		}
+		.box{
+			width: 200px;
+			background-color: #EBE084;
+			border: solid 1px #fff;
+			box-sizing: border-box;
+		}
+		.box img{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<section class="container">
+		<article class="box">
+			<img src="images/icon-walt.svg" alt="walt">
+		</article>
+		<article class="box">
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</article>
+		<article class="box">
+			<img src="images/icon-mask.svg" alt="mask">
+		</article>
+	</section>
+</body>
+</html>
